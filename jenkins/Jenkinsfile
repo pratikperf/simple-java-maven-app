@@ -28,11 +28,6 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh' 
             }
         }
-        stage('Completion') { 
-            steps {
-                echo 'This is completion stage to check polling'
-                echo 'This is completion stage to check polling for poll scm'
-            }
-        }
+
     }
 }
